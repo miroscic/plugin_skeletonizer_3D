@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['load_5fdata_55',['load_data',['../classFilter.html#a28d0801cad687c24af7ba2336e7486e7',1,'Filter']]]
+  ['jpegrestorationmodel_288',['JPEGRestorationModel',['../classJPEGRestorationModel.html#a200672c6bfcaca37ab5af1d15b3a2863',1,'JPEGRestorationModel']]]
 ];

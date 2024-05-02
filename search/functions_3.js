@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['error_50',['error',['../classFilter.html#a4f5237964d639b9f3c43a4a1d540174d',1,'Filter::error()'],['../classSource.html#aeb408a2891887138206fd602bf2357cb',1,'Source::error()']]]
+  ['detectionmodel_270',['DetectionModel',['../classDetectionModel.html#ab204c9fbf58026fa25ba3aa8319fa087',1,'DetectionModel']]]
 ];

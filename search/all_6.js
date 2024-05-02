@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['filter_19',['Filter',['../classFilter.html',1,'']]]
+  ['filter_50',['Filter',['../classFilter.html',1,'']]],
+  ['findpeaksbody_51',['FindPeaksBody',['../classFindPeaksBody.html',1,'']]]
 ];

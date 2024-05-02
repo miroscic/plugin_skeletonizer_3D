@@ -1,0 +1,13 @@
+<map id="DetectionModel" name="DetectionModel">
+<area shape="rect" id="node1" title=" " alt="" coords="299,183,424,209"/>
+<area shape="rect" id="node4" href="$classModelCenterNet.html" title=" " alt="" coords="483,5,611,32"/>
+<area shape="rect" id="node5" href="$classModelFaceBoxes.html" title=" " alt="" coords="481,56,612,83"/>
+<area shape="rect" id="node6" href="$classModelRetinaFace.html" title=" " alt="" coords="480,107,613,133"/>
+<area shape="rect" id="node7" href="$classModelRetinaFacePT.html" title=" " alt="" coords="472,157,621,184"/>
+<area shape="rect" id="node8" href="$classModelSSD.html" title=" " alt="" coords="503,208,591,235"/>
+<area shape="rect" id="node9" href="$classModelYolo.html" title=" " alt="" coords="503,259,591,285"/>
+<area shape="rect" id="node10" href="$classModelYoloV3ONNX.html" title=" " alt="" coords="475,309,619,336"/>
+<area shape="rect" id="node11" href="$classModelYoloX.html" title=" " alt="" coords="498,360,595,387"/>
+<area shape="rect" id="node2" href="$classImageModel.html" title=" " alt="" coords="148,183,251,209"/>
+<area shape="rect" id="node3" href="$classModelBase.html" title=" " alt="" coords="5,183,100,209"/>
+</map>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['skeletonizer3d_41',['Skeletonizer3D',['../classSkeletonizer3D.html',1,'']]],
-  ['source_42',['Source',['../classSource.html',1,'']]],
-  ['source_3c_20json_20_3e_43',['Source&lt; json &gt;',['../classSource.html',1,'']]]
+  ['bbox_167',['BBox',['../structModelCenterNet_1_1BBox.html',1,'ModelCenterNet']]],
+  ['box_168',['Box',['../structModelRetinaFacePT_1_1Box.html',1,'ModelRetinaFacePT']]]
 ];

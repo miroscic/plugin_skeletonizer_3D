@@ -1,13 +1,22 @@
 var searchData=
 [
-  ['_5fcov2d_0',['_cov2D',['../classSkeletonizer3D.html#a45d67bf0ce8585ef7b89d6b7e72e1f19',1,'Skeletonizer3D']]],
-  ['_5fcov3d_1',['_cov3D',['../classSkeletonizer3D.html#a8db583bfbae9f0cf99d1ca3c3da00b40',1,'Skeletonizer3D']]],
-  ['_5fcov3d_5fadj_2',['_cov3D_adj',['../classSkeletonizer3D.html#a112e704a05bb8dd251b9af1df6d0ef51',1,'Skeletonizer3D']]],
-  ['_5fheatmaps_3',['_heatmaps',['../classSkeletonizer3D.html#ab61cfc92965787f712f11085ebd508ba',1,'Skeletonizer3D']]],
-  ['_5fparams_4',['_params',['../classSkeletonizer3D.html#a6bf7762621a70f116512aa6721b8f56c',1,'Skeletonizer3D']]],
-  ['_5fpoint_5fcloud_5',['_point_cloud',['../classSkeletonizer3D.html#abc754e4de7fe4445dfa5306a661693a1',1,'Skeletonizer3D']]],
-  ['_5frgb_6',['_rgb',['../classSkeletonizer3D.html#a11ff525af937df4f5b4f2c68a68e7de2',1,'Skeletonizer3D']]],
-  ['_5frgbd_7',['_rgbd',['../classSkeletonizer3D.html#a68642ff95b026e05a8460db1863be09f',1,'Skeletonizer3D']]],
-  ['_5fskeleton2d_8',['_skeleton2D',['../classSkeletonizer3D.html#aeaef65a91489becae8c50314eccb05ba',1,'Skeletonizer3D']]],
-  ['_5fskeleton3d_9',['_skeleton3D',['../classSkeletonizer3D.html#a4eef2646c42460c622669ddb5a2be61e',1,'Skeletonizer3D']]]
+  ['_5fcov3d_0',['_cov3D',['../classSkeletonizer3D.html#a8db583bfbae9f0cf99d1ca3c3da00b40',1,'Skeletonizer3D']]],
+  ['_5fcov3d_5fadj_1',['_cov3D_adj',['../classSkeletonizer3D.html#a112e704a05bb8dd251b9af1df6d0ef51',1,'Skeletonizer3D']]],
+  ['_5fheatmaps_2',['_heatmaps',['../classSkeletonizer3D.html#ab61cfc92965787f712f11085ebd508ba',1,'Skeletonizer3D']]],
+  ['_5finference_5fdevice_3',['_inference_device',['../classSkeletonizer3D.html#a56e7e8b6fc4de675d0a453095ffc9567',1,'Skeletonizer3D']]],
+  ['_5flayout_4',['_layout',['../classSkeletonizer3D.html#a8711ef62afeaec08e0d739fec8c5be11',1,'Skeletonizer3D']]],
+  ['_5fnireq_5',['_nireq',['../classSkeletonizer3D.html#aa02402aa4b2ac16464a725fc2d317605',1,'Skeletonizer3D']]],
+  ['_5fnstreams_6',['_nstreams',['../classSkeletonizer3D.html#a5d0b5a029adc15e3bfa6c7dbcde75ab0',1,'Skeletonizer3D']]],
+  ['_5fnthreads_7',['_nthreads',['../classSkeletonizer3D.html#a70ccfd9150ed8dbbb7d4a10f96139662',1,'Skeletonizer3D']]],
+  ['_5fparams_8',['_params',['../classSkeletonizer3D.html#a6bf7762621a70f116512aa6721b8f56c',1,'Skeletonizer3D']]],
+  ['_5fpoint_5fcloud_9',['_point_cloud',['../classSkeletonizer3D.html#abc754e4de7fe4445dfa5306a661693a1',1,'Skeletonizer3D']]],
+  ['_5fposes_10',['_poses',['../classSkeletonizer3D.html#ac207dbc5697860dd69b69974a7d4cad9',1,'Skeletonizer3D']]],
+  ['_5frgb_11',['_rgb',['../classSkeletonizer3D.html#a11ff525af937df4f5b4f2c68a68e7de2',1,'Skeletonizer3D']]],
+  ['_5frgb_5fheight_12',['_rgb_height',['../classSkeletonizer3D.html#a8c02a837f996f72532f4a7126dbca002',1,'Skeletonizer3D']]],
+  ['_5frgb_5fwidth_13',['_rgb_width',['../classSkeletonizer3D.html#ad29ff61ed6f3d9437df28413dfa28b07',1,'Skeletonizer3D']]],
+  ['_5frgbd_14',['_rgbd',['../classSkeletonizer3D.html#a68642ff95b026e05a8460db1863be09f',1,'Skeletonizer3D']]],
+  ['_5fskeleton2d_15',['_skeleton2D',['../classSkeletonizer3D.html#aeaef65a91489becae8c50314eccb05ba',1,'Skeletonizer3D']]],
+  ['_5fskeleton3d_16',['_skeleton3D',['../classSkeletonizer3D.html#a4eef2646c42460c622669ddb5a2be61e',1,'Skeletonizer3D']]],
+  ['_5fthreshold_17',['_threshold',['../classSkeletonizer3D.html#a950154b4dc1bd16a3838f859df32001e',1,'Skeletonizer3D']]],
+  ['_5ftsize_18',['_tsize',['../classSkeletonizer3D.html#a9438dcb3e974d89711541e3742204699',1,'Skeletonizer3D']]]
 ];
