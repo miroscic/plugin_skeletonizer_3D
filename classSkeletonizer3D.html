@@ -97,15 +97,15 @@ Collaboration diagram for Skeletonizer3D:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac1d7066ad008ebdef8c69bce62740377"><td class="memItemLeft" align="right" valign="top"><a id="ac1d7066ad008ebdef8c69bce62740377"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setup_VideoCapture</b> ()</td></tr>
-<tr class="separator:ac1d7066ad008ebdef8c69bce62740377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a436d297f98b17db824e1527f6415a446"><td class="memItemLeft" align="right" valign="top"><a id="a436d297f98b17db824e1527f6415a446"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setup_OpenPoseModel</b> ()</td></tr>
 <tr class="separator:a436d297f98b17db824e1527f6415a446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee1cadcaf795df576d48fac57b61d57"><td class="memItemLeft" align="right" valign="top"><a id="a7ee1cadcaf795df576d48fac57b61d57"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setup_Pipeline</b> ()</td></tr>
 <tr class="separator:a7ee1cadcaf795df576d48fac57b61d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d7066ad008ebdef8c69bce62740377"><td class="memItemLeft" align="right" valign="top"><a id="ac1d7066ad008ebdef8c69bce62740377"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setup_VideoCapture</b> ()</td></tr>
+<tr class="separator:ac1d7066ad008ebdef8c69bce62740377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca468173e202bdfb0afd29ab0833e97c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8hpp.html#a8158a2d869c53eb8f38c869b380a1209">return_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSkeletonizer3D.html#aca468173e202bdfb0afd29ab0833e97c">acquire_frame</a> (bool <a class="el" href="classSource.html#a504d988ace793cf47a4301151ebdf570">dummy</a>=false)</td></tr>
 <tr class="memdesc:aca468173e202bdfb0afd29ab0833e97c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire a frame from a camera device. Camera ID is defined in the parameters list.  <a href="classSkeletonizer3D.html#aca468173e202bdfb0afd29ab0833e97c">More...</a><br /></td></tr>
 <tr class="separator:aca468173e202bdfb0afd29ab0833e97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,9 +190,6 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>_frames_processed
 <tr class="memitem:a1d9a79836b51588004ce5b7e6e441a9d"><td class="memItemLeft" align="right" valign="top"><a id="a1d9a79836b51588004ce5b7e6e441a9d"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>_frame_num</b> = 0</td></tr>
 <tr class="separator:a1d9a79836b51588004ce5b7e6e441a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79c88e360994b8b53e7c7e7b190db3bf"><td class="memItemLeft" align="right" valign="top"><a id="a79c88e360994b8b53e7c7e7b190db3bf"></a>
-unique_ptr&lt; <a class="el" href="structResultBase.html">ResultBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_result</b></td></tr>
-<tr class="separator:a79c88e360994b8b53e7c7e7b190db3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e65b40753138828190537fe078eb15"><td class="memItemLeft" align="right" valign="top"><a id="ab8e65b40753138828190537fe078eb15"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_dummy</b> = false</td></tr>
 <tr class="separator:ab8e65b40753138828190537fe078eb15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,21 +218,24 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>_model_file</b></td
 <tr class="memitem:a2b379c5e697d47f16791befb64f04aa8"><td class="memItemLeft" align="right" valign="top"><a id="a2b379c5e697d47f16791befb64f04aa8"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>_agent_id</b></td></tr>
 <tr class="separator:a2b379c5e697d47f16791befb64f04aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a910e88381c20589278cf7464540dda97"><td class="memItemLeft" align="right" valign="top"><a id="a910e88381c20589278cf7464540dda97"></a>
-cv::VideoCapture&#160;</td><td class="memItemRight" valign="bottom"><b>_cap</b></td></tr>
-<tr class="separator:a910e88381c20589278cf7464540dda97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41cdb0177346f7ef7d72a55d91ea0973"><td class="memItemLeft" align="right" valign="top"><a id="a41cdb0177346f7ef7d72a55d91ea0973"></a>
+VideoCapture&#160;</td><td class="memItemRight" valign="bottom"><b>_cap</b></td></tr>
+<tr class="separator:a41cdb0177346f7ef7d72a55d91ea0973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40d5a36bcdb84b2bf1038701fbea68a3"><td class="memItemLeft" align="right" valign="top"><a id="a40d5a36bcdb84b2bf1038701fbea68a3"></a>
 chrono::steady_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><b>_start_time</b></td></tr>
 <tr class="separator:a40d5a36bcdb84b2bf1038701fbea68a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cee765226dec52bcfd882c9a1f8c14"><td class="memItemLeft" align="right" valign="top"><a id="a14cee765226dec52bcfd882c9a1f8c14"></a>
+ov::Core&#160;</td><td class="memItemRight" valign="bottom"><b>_core</b></td></tr>
+<tr class="separator:a14cee765226dec52bcfd882c9a1f8c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c88e360994b8b53e7c7e7b190db3bf"><td class="memItemLeft" align="right" valign="top"><a id="a79c88e360994b8b53e7c7e7b190db3bf"></a>
+unique_ptr&lt; <a class="el" href="structResultBase.html">ResultBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_result</b></td></tr>
+<tr class="separator:a79c88e360994b8b53e7c7e7b190db3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b3983838daa0d1f3d5418fbbafd398"><td class="memItemLeft" align="right" valign="top"><a id="a99b3983838daa0d1f3d5418fbbafd398"></a>
 <a class="el" href="classOutputTransform.html">OutputTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_output_transform</b></td></tr>
 <tr class="separator:a99b3983838daa0d1f3d5418fbbafd398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae6eb241397829e24476a4fd0a129534"><td class="memItemLeft" align="right" valign="top"><a id="aae6eb241397829e24476a4fd0a129534"></a>
 unique_ptr&lt; <a class="el" href="classModelBase.html">ModelBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_model</b></td></tr>
 <tr class="separator:aae6eb241397829e24476a4fd0a129534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14cee765226dec52bcfd882c9a1f8c14"><td class="memItemLeft" align="right" valign="top"><a id="a14cee765226dec52bcfd882c9a1f8c14"></a>
-ov::Core&#160;</td><td class="memItemRight" valign="bottom"><b>_core</b></td></tr>
-<tr class="separator:a14cee765226dec52bcfd882c9a1f8c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a254951a1ca7728da0923c0a551b812d5"><td class="memItemLeft" align="right" valign="top"><a id="a254951a1ca7728da0923c0a551b812d5"></a>
 <a class="el" href="classAsyncPipeline.html">AsyncPipeline</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_pipeline</b></td></tr>
 <tr class="separator:a254951a1ca7728da0923c0a551b812d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
